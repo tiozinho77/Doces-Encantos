@@ -1,6 +1,6 @@
 // 1. Configuração do Supabase (Substitua pelas suas chaves do Supabase)
 const SUPABASE_URL = 'https://pznuqeqtytyjtupxnzqk.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_WTF_VVl_WAjoB4bb8BcVOg_87re_QGi';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB6bnVxZXF0eXR5anR1cHhuenFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg0MDIyMTAsImV4cCI6MjEwMzk3ODIxMH0.ZadwdTr-pERj7mBYQGnIRpg7M4RhN9K3xNCpcG_GOqQ';
 
 const _supabase = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY) : null;
 
