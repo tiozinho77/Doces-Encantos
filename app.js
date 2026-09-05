@@ -1,5 +1,5 @@
 // 1. Configuração do Supabase (Substitua pelas suas chaves do Supabase)
-const SUPABASE_URL = 'https://app-pdv.supabase.co';
+const SUPABASE_URL = 'https://pznuqeqtytyjtupxnzqk.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_WTF_VVl_WAjoB4bb8BcVOg_87re_QGi';
 
 const _supabase = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY) : null;
